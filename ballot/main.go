@@ -128,7 +128,7 @@ func serveRoot(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	log.Println("ballot is ready to storess vottess")
+	log.Println("ballot is ready to storess vottesss")
 	http.HandleFunc("/", serveRoot)
 	log.Println(http.ListenAndServe(net.JoinHostPort("", port), nil))
 }
