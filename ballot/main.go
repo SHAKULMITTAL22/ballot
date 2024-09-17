@@ -240,7 +240,7 @@ func runTest(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	log.Println("ballot is ready to store votes")
+	log.Println("ballot is ready to storess votesss")
 	http.HandleFunc("/", serveRoot)
 	http.HandleFunc("/tests/run", runTest)
 	log.Println(http.ListenAndServe(net.JoinHostPort("", port), nil))
